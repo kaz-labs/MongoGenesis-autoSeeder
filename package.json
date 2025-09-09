@@ -1,0 +1,42 @@
+{
+  "name": "mongogenesis-autoseeder",
+  "version": "1.0.0",
+  "description": "A utility to auto generate seed data for Mongoose schemas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/extractRequiredFields.test.js && node test/bestCasualMatch.test.js && node test/seed.generator.test.js"
+  },
+  "keywords": [
+    "mongoose",
+    "mongodb",
+    "seed",
+    "seeding",
+    "data generation",
+    "generator",
+    "development",
+    "tool",
+    "automation",
+    "nodejs",
+    "javascript",
+    "testing",
+    "mock data",
+    "schema"
+  ],
+  "author": "Kaz Kriska <kazkriska@gmail.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kaz-labs/MongoGenesis-autoSeeder.git"
+  },
+  "files": [
+    "index.js",
+    "src/",
+    "samples/",
+    "README.md"
+  ],
+  "dependencies": {
+    "mongoose": "^5.10.0",
+    "casual": "^1.6.2",
+    "fuse.js": "^6.4.6"
+  }
+}

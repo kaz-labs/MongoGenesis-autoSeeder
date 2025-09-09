@@ -1,0 +1,5 @@
+node_modules/
+package-lock.json
+samples/generated-seeds.js
+npm-debug.log*
+.env
